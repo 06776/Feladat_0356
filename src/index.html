@@ -1,18 +1,51 @@
+<!-- 
+* File: index.html
+* Author: Hajdara Patrik
+* Copyright: 2023, Hajdara Patrik
+* Group: SZOFT I/II/N
+* Date: 2023-03-31
+* Github: https://github.com/06776/
+* Licenc: GNU GPL 
+-->
+
 <!DOCTYPE html>
 <html lang="hu">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Templates</title>
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <h1>Sablon</h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Templates</title>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Hexagon területszámítás</h1>
+    <h2>(SZIT feladatgyűjtemény: Feladat - 0356)</h2>
+
+    <div class="hexagonForm">
+      <div class="mt-3">
+        <label for="aTelekHossz" class="form-label">"A" telek hossza (m)</label>
+        <input type="text" id="aTelekHossz" class="form-control" />
+      </div>
+      <div class="mt-3">
+        <label for="bTelekHossz" class="form-label">"B" telek hossza (m)</label>
+        <input type="text" id="bTelekHossz" class="form-control" />
+      </div>
+      <button id="calcButton" class="btn btn-primary mt-3">Terület számítása</button>
+      <div class="mt-3">
+        <label for="area" class="form-label">Terület</label>
+        <input type="text" id="area" class="form-control" />
+      </div>
     </div>
-    <script src="js/bootstrap.js"></script>
-    <script src="app.js"></script>
-  </body>
+  </div>
+
+  <div class="about">
+    Created by Hajdara Patrik | 2023.03.31. <br />
+    SZOFT I/II/N
+  </div>
+</body>
+
 </html>
